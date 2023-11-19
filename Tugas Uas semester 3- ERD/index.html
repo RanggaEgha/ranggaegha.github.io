@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atribut</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a class="text" target="_blank" href="https://www.instagram.com/rangga.eghaa_/"><button>rangga egha</button></a>
+      <a class="text2" target="_blank" href="https://www.instagram.com/rangga.eghaa_/"><button>r.e</button></a>
+    </div>
+    <div class="menu">
+      <div class="menu-links">
+        <a href="#mulai">Attribute</a>
+        <a href="#start">Entitas</a>
+        <a href="#up">Relasi</a>
+        <a href="#down">ERD</a>
+        <div class="menu-icon">
+          <i class="ph ph-list-dashes"></i>
+        </div>
+      </div>
+      <a target="_blank" href="https://business.google.com/website/adirpid"><button class="log-in2">Adi
+          Rizky</button></a>
+      <a target="_blank" href="https://business.google.com/website/adirpid"><button class="log-in4">Adi
+        </button></a>
+      <a target="_blank" href="https://ubpkarawang.ac.id/"><button class="log-in">UBP</button></a>
+
+      <a target="_blank" href="https://ubpkarawang.ac.id/"><button class="log-in3">UBP</button></a>
+
+    </div>
+
+    <div class="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+  <nav class="kepala">
+    <div id="mulai"></div>
+    <div class="tema" data-aos="fade-up" data-aos-duration="2000">
+      <a>atribut</a>
+      <p>Atribut merupakan pendeskripsian karakteristik dari entitas.Setiap Entitas
+        pasti memiliki Atribut yang mendeskripsikan karakteristik dari Entitas tersebut.
+        penentuan/pemilihan atribut-atribut yang relevan bagi sebuah entitas merupakan hal
+        penting lainnya dalam pembentukan model data. <br> <br> Penetapan atribut bagi sebuah entitas umumnya memang
+        didasarkan
+        pada fakta yang ada. Tetapi tidak selalu seperti itu. Istilah
+        atribut sebenarnya identik dengan pemakaian kolom data.
+        atribut digambarkan dalam bentuk lingkaran atau elips. Atribut yang menjadi
+        kunci entitas atau key diberi garis bawah.</p> <br>
+      <img src="image/atribut.png" alt="tabel" data-aos="flip-left" data-aos-duration="2000">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Contoh : <br> <br> - Tabel kelompokfilm memiliki 2 atribut, yaitu : jenis dan harga_sewa
+
+        <br>- Tabel film memiliki 5 atribut, yaitu : kode_film, jenis, judul, jml_keping, jml_film <br> <br>itu biasa di
+        sebut Atribut Kunci satu atau gabungan dari beberapa atribut yang dapat
+        membedakan semua baris data dalam tabel secara unik. Dikatakan unik jika pada atribut
+        yang dijadikan kunci tidak boleh ada baris data dengan nilai yang sama.
+      </p>
+      <p> atribut yang digunakan untuk menentukan entitas secara unik. Contoh: NPWP, NIM (Nomor Induk Mahasiswa).
+        Atribut simpel: atribut bernilai tunggal yang tidak dapat dipecah lagi (atomic). <br><br> Contoh: Alamat, tahun
+        terbit
+        buku, nama penerbit. Atribut multinilai (multivalue): atribut yang memiliki sekelompok nilai untuk setiap
+        entitas instan. Contoh: nama beberapa pengarang dari sebuah buku pelajaran. Atribut gabungan (composite):
+        atribut yang terdiri dari beberapa atribut yang lebih kecil dengan arti tertentu. Contoh: nama lengkap yang
+        terbagi menjadi nama depan, tengah, dan belakang. Atribut derivatif: atribut yang dihasilkan dari atribut lain
+        dan tidak wajib ditulis dalam diagram ER.</p>
+      <div id="start"></div>
+    </div>
+
+    <div class="tema2" data-aos="fade-up" data-aos-duration="2000">
+      <a>entitas</a>
+      <p>entitas yaitu suatu objek yang dapat dibedakan dengan objek lainnya. Entitas
+        digunakan untuk menerapkan integritas pada tingkat Entity (Tabel), agar setiap Instances
+        (Record/Baris) pada suatu Entity bersifat Unique yang disebut sebagai Primary Key
+        sehingga dapat dibedakan antara yang satu dengan yang lain. <br>
+        <br>Perhatikan gambar di bawah!!
+      </p>
+      <img src="image/entitas2.png" alt="tabel" data-aos="flip-left" data-aos-duration="2000">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Contoh : <br> <br> Entity Relationship Diagram (ERD) yang terdiri dari
+        delapan entitas yang berbeda, yaitu Individu, Sekolah, Koperasi, Lembaga Pemerintahan, Perusahaan, Perseroan
+        Terbatas (PT), Yayasan, dan Organisasi Kemasyarakatan. ERD digunakan untuk memodelkan hubungan antar entitas
+        atau tabel dalam basis data
+        <br>
+        <br>Gambar yang Anda kirimkan adalah sebuah Entity Relationship Diagram (ERD) yang terdiri dari delapan entitas
+        yang berbeda, yaitu Individu, Sekolah, Koperasi, Lembaga Pemerintahan, Perusahaan, Perseroan Terbatas (PT),
+        Yayasan, dan Organisasi Kemasyarakatan. ERD digunakan untuk memodelkan hubungan antar entitas atau tabel dalam
+        basis data
+
+      </p>
+      <div id="up"></div>
+    </div>
+
+    <div class="tema2" data-aos="fade-up" data-aos-duration="2000">
+      <a>relasi
+      </a>
+      <p>Relasi dalam Entity Relationship Diagram (ERD) adalah hubungan antara satu atau lebih entitas. Relasi digunakan
+        untuk menggambarkan bagaimana entitas terkait satu sama lain dalam basis data. Terdapat tiga jenis relasi dalam
+        ERD, yaitu one-to-one, one-to-many, dan many-to-many. One-to-one adalah relasi dimana satu entitas hanya
+        terhubung dengan satu entitas lainnya.</p>
+      <img src="image/relasi2.jpg" alt="tabel" data-aos="flip-left" data-aos-duration="2000">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Contoh : <br> <br> Gambar di atas adalah sebuah diagram alir (flowchart) yang terkait dengan layanan
+        rental mobil. Diagram ini menunjukkan alur proses dari pelanggan memilih mobil hingga layanan rental menyediakan
+        mobil.
+        <br><br>Diagram ini terdiri dari beberapa kotak dan panah yang menunjukkan alur proses. Kotak-kotak tersebut
+        diberi label dengan berbagai istilah terkait layanan rental mobil, seperti “Customer”, “Kode Transaksi”,
+        “Jumlah”, “Jenis Mobil”, dan lain-lain. Panah-panah menunjukkan alur proses, mulai dari pelanggan memilih mobil
+        hingga layanan rental menyediakan mobil. <br> <br>
+        Diagram ini berwarna hitam putih dengan garis-garis putus-putus merah yang menunjukkan hubungan kunci asing.
+      </p>
+      <div id="down"></div>
+    </div>
+
+    <div class="tema3" data-aos="fade-up" data-aos-duration="2000">
+      <a>Erd</a>
+      <p>Entity Relationship Diagram (ERD) adalah sebuah model untuk menyusun basis data agar dapat menggambarkan data
+        yang mempunyai relasi dengan basis data yang akan didesain. ERD digunakan untuk memodelkan hubungan antar
+        entitas atau tabel dalam basis data. <br>
+        <br> ERD terdiri dari beberapa komponen, seperti entitas, atribut, dan hubungan antar entitas. Entitas adalah
+        objek yang dapat diidentifikasikan secara unik atau saling berbeda. Atribut adalah elemen yang mendeskripsikan
+        karakteristik dari entitas tersebut. Hubungan antar entitas adalah keterkaitan antara satu entitas dengan
+        entitas lainnya dalam basis data.
+      </p>
+      <img src="image/erd2.jpg" alt="tabel" data-aos="flip-left" data-aos-duration="2000">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Gambar di atas adalah sebuah Entity Relationship Diagram (ERD) yang terdiri dari enam tabel: pasien,
+        dokter, resep, obat, perawatan, dan id_obat. ERD digunakan untuk memodelkan hubungan antar entitas atau tabel
+        dalam basis data. Tabel-tabel dalam ERD ini terhubung dengan garis-garis yang menunjukkan hubungan antar tabel.
+        <br> <br>
+        Setiap tabel memiliki atribut-atribut tertentu, seperti no_RM, nama_pasien, id_dokter, nama_dokter, dan
+        lain-lain. ERD ini berwarna hitam putih dan tidak memiliki simbol-simbol khusus
+      </p>
+    </div>
+
+    <footer class="footer" data-aos="fade-up" data-aos-duration="2000">
+      <ul class="social-icon">
+        <li style="list-style: none;"><img src="image/adi.jpeg" href="photo adi" data-aos="flip-left"
+            data-aos-duration="2000"></img><a href="#"></a></li>
+        <li class="social-icon__item"><a class="social-icon__link" 
+            href="https://scholar.google.com.mx/citations?user=6K_K25gAAAAJ&hl=en" target="_blank">
+            <ion-icon name="school-outline"></ion-icon> 
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/adirpcom"
+            target="_blank">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/adi-rizky-pratama/"
+            target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+      </ul>
+      <p>&copy;2023 Rangga Egha | All Rights Reserved</p>
+    </footer>
+  </nav>
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

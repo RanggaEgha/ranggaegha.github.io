@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a class="text" target="_blank" href="https://www.instagram.com/rangga.eghaa_/"><button>rangga egha</button></a>
+      <a class="text2" target="_blank" href="https://www.instagram.com/rangga.eghaa_/"><button>r.e</button></a>
+
+    </div>
+    <div class="menu">
+      <div class="menu-links">
+        <a href="#Relation">Relation</a>
+        <a href="#ManyToMany">ManyToMany</a>
+        <div class="menu-icon">
+          <i class="ph ph-list-dashes"></i>
+        </div>
+      </div>
+      <a target="_blank" href="https://business.google.com/website/adirpid"><button class="log-in2">Adi
+          Rizky</button></a>
+      <a target="_blank" href="https://business.google.com/website/adirpid"><button class="log-in4">Adi
+        </button></a>
+      <a target="_blank" href="https://ubpkarawang.ac.id/"><button class="log-in">UBP</button></a>
+
+      <a target="_blank" href="https://ubpkarawang.ac.id/"><button class="log-in3">UBP</button></a>
+
+    </div>
+    <div class="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </nav>
+  <nav class="kepala">
+    <div id="Relation"></div>
+    <div class="tema" data-aos="fade-up" data-aos-duration="2000">
+      <a>Relation dalam ERD</a>
+      <p>
+        Relation pada ERD adalah hubungan yang terjadi antara satu atau lebih entitas dalam sebuah basis data.
+        Relation
+        digambarkan dengan simbol belah ketupat yang terhubung dengan garis ke entitas yang berelasi.Relation
+        dapat
+        memiliki atribut yang mendeskripsikan karakteristik hubungan tersebut. Relation juga memiliki kardinalitas yang
+        menunjukkan jumlah entitas yang dapat berpartisipasi dalam hubungan tersebut.
+        Relation digunakan untuk menggambarkan bagaimana entitas berinteraksi satu sama lain dalam basis data, dan dapat
+        menggambarkan berbagai tingkat keterkaitan antara entitas, seperti one-to-one, one-to-many, atau many-to-many.
+      </p>
+    </div>
+
+
+    </div>
+    <div id="ManyToMany"></div>
+    <div class="tema2" data-aos="fade-up" data-aos-duration="2000">
+      <a>Many to many</a>
+      <p>
+        Many-to-many adalah jenis relation di mana sebuah entitas dapat terhubung dengan banyak entitas lainnya, dan
+        sebaliknya. Namun, many-to-many tidak baik digunakan pada ERD karena dapat menyebabkan kompleksitas yang tinggi.
+        Selain itu ada beberapa hal lain nya juga sepertiKompleksitas: Many-to-many dapat meningkatkan tingkat
+        kompleksitas dalam desain basis data, sehingga membuat model data sulit dipahami dan dirawat.
+        Sulit untuk dikelola: Many-to-many memerlukan tabel penghubung atau junction table untuk mengatasi hubungan ini.
+        Pengelolaan dan pemeliharaan tabel ini bisa menjadi rumit dan memerlukan perhatian ekstra. <br> <br>
+        Performa: Many-to-many dapat memengaruhi kinerja basis data, terutama ketika ada banyak data dalam hubungan ini.
+        Operasi yang melibatkan banyak join bisa menjadi lambat.
+        Ketidak konsistenan data: Many-to-many dapat menyebabkan data kurang konsisten, karena ada banyak cara berbeda
+        untuk menghubungkan entitas. Ini bisa mengarah pada kesalahan data dan inkonsistensi.
+        Kesulitan kueri: Many-to-many dapat menyulitkan pengembang dalam menulis kueri untuk memodifikasi data dalam
+        hubungan ini. Kueri ini memerlukan perhatian khusus untuk mengakses dan memanipulasi data. <br> <br>
+        Normalisasi: Many-to-many cenderung melanggar prinsip-prinsip normalisasi yang digunakan untuk meminimalkan
+        redundansi data.
+        Ketika terdapat banyak entitas yang terhubung satu sama lain, sulit untuk mengelola dan memahami hubungan
+        tersebut.Selain itu, many-to-many juga dapat menyebabkan redudansi data, yaitu pengulangan data yang tidak
+        perlu.Oleh karena itu, untuk mengatasi masalah ini, biasanya many-to-many dipecah menjadi dua one-to-many
+        dengan menggunakan entitas asosiatif yang berfungsi sebagai penghubung antara dua entitas utama. Contoh: entitas
+        asosiatif krs yang menghubungkan entitas mahasiswa dan mata kuliah.
+      </p>
+    </div>
+    <footer class="footer" data-aos="fade-up" data-aos-duration="2000">
+      <ul class="social-icon">
+        <li style="list-style: none;"><img src="image/adi.jpeg" href="photo adi" data-aos="flip-left"
+            data-aos-duration="2000"></img><a href="#"></a></li>
+        <li class="social-icon__item"><a class="social-icon__link"
+            href="https://scholar.google.com.mx/citations?user=6K_K25gAAAAJ&hl=en" target="_blank">
+            <ion-icon name="school-outline"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="https://www.youtube.com/adirpcom">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link"
+            href="https://www.linkedin.com/in/adi-rizky-pratama/">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+      </ul>
+      <p>&copy;2023 Rangga Egha | All Rights Reserved</p>
+    </footer>
+  </nav>
+
+
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
