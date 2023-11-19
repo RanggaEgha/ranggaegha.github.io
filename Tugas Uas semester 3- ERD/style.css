@@ -443,7 +443,7 @@ section > h1 {
   }
   
   .tema img {
-    float: left;
+    float: center;
     width: 250px;
     height: 120px;
     padding-top: 0px;
