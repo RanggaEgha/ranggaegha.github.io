@@ -483,7 +483,7 @@ section > h1 {
   }
   
   .tema2 img {
-    float: left;
+    float: center;
     width: 235px;
     height: 130px;
     padding-top: 0px;
@@ -523,7 +523,7 @@ section > h1 {
   }
   
   .tema3 img {
-    float: left;
+    float: center;
     width: 250px;
     height: 140px;
     padding-top: 0px;
