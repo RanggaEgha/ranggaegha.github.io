@@ -493,7 +493,7 @@ section > h1 {
     padding-left: 15px;
     padding-right: 12px;
     padding-top: 15vh;
-    padding-bottom: 0px;
+    padding-bottom: 80px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 25px;
     font-weight: bolder;
@@ -574,7 +574,7 @@ section > h1 {
     align-items: center;
     text-align:center;
     padding: 2px 15px;
-    margin-right: 2px;
+    margin-right: 20px;
     border: 2px solid #F99417;
   }
 
@@ -595,8 +595,8 @@ section > h1 {
     position: relative;
     width: 100%;
     background: #141E46;
-    min-height: 12px;
-    padding: 50px 1px;
+    min-height: 100px;
+    padding: 20px 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -620,7 +620,7 @@ section > h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1px 0;
+    margin: 5px 0;
     flex-wrap: wrap;
   }
   
@@ -657,7 +657,7 @@ section > h1 {
   
   .footer p {
     color: #fff;
-    margin: 10px 0 1px 0;
+    margin: 24px 0 1px 0;
     font-size: 0.5rem;
     font-weight: 10;
   }
